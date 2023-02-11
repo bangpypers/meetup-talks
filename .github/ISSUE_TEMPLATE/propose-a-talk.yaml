@@ -30,6 +30,16 @@ body:
   validations:
     required: true
 
+- type: dropdown
+  id: format
+  attributes:
+    label: What format do you have in mind for your talk?
+    options:
+      - Talk
+      - Workshop
+  validations:
+    required: true
+
 - type: textarea
   id: toc
   attributes:
@@ -38,6 +48,23 @@ body:
     placeholder: |
       A few bullet points which you will be covering during the talk
       can be added here. You can update this later as well.
+  validations:
+    required: true
+
+- type: dropdown
+  id: domain
+  attributes:
+    label: What domain would you say your talk falls under?
+    options:
+      - Core Python
+      - Data Science & Machine Learning
+      - Web Dev
+      - Testing
+      - Embedded
+      - Research
+      - AI
+      - Web3
+      - BotDev
   validations:
     required: true
 
