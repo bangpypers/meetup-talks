@@ -119,3 +119,7 @@ body:
         of
         Conduct](https://bangalore.pythonindia.org/coc/)
       required: true
+- type: markdown
+  attributes:
+    value: |
+       After submitting the issue, please fill this form to share your contact details with the organizers: https://forms.gle/cRx2RPnPbXKkmP2f9
