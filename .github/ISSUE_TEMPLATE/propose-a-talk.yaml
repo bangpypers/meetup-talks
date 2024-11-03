@@ -86,6 +86,22 @@ body:
       If you have any prerequisites like software, tools set up on
       machine etc, please include it here.
 
+- type: input
+  id: speaker-social-x
+  attributes:
+    label: "Speaker X(Twitter) Account link (Optional)"
+    description: "Please add your twitter account link here, if you wish us to tag you."
+  validations:
+    required: false
+
+- type: input
+  id: speaker-pic
+  attributes:
+    label: "Profile Picture"
+    description: "We will use this picture while creating a poster for the event. You can use animated or any annonymous image if you do not wish to display your picture publicly."
+  validations:
+    required: false
+
 - type: textarea
   id: bio
   attributes:
