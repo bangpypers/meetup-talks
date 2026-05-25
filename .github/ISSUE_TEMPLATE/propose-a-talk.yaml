@@ -37,6 +37,7 @@ body:
     options:
       - Talk
       - Workshop
+      - Research Paper Reading
   validations:
     required: true
 
