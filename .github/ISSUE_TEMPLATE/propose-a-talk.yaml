@@ -37,6 +37,7 @@ body:
     options:
       - Talk
       - Workshop
+      - Papers & PiP (Virtual)
   validations:
     required: true
 
